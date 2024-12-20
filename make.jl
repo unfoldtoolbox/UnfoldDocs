@@ -29,7 +29,7 @@ docs = [
     ),
 ]
 
-outpath = joinpath(@__DIR__, "out")
+#outpath = joinpath(@__DIR__, "out")
 
 MultiDocumenter.make(
     outpath,
