@@ -19,15 +19,27 @@ docs = [
         path="UnfoldMakie.jl",
         name="UnfoldMakie.jl",
         giturl="https://github.com/unfoldtoolbox/UnfoldMakie.jl.git",
-    ), MultiDocumenter.MultiDocRef(
+    ),
+    MultiDocumenter.MultiDocRef(
         upstream=joinpath(clonedir, "UnfoldSim.jl"),
         path="UnfoldSim.jl",
         name="UnfoldSim.jl",
-        giturl="https://github.com/unfoldtoolbox/UnfoldSim.jl.git",
-        # or use ssh instead for private repos:
-        # giturl = "git@github.com:JuliaComputing/DataSets.jl.git",
-    ),
-]
+        giturl="https://github.com/unfoldtoolbox/UnfoldSim.jl.git",),
+    MultiDocumenter.MultiDocRef(
+        upstream=joinpath(clonedir, "UnfoldBIDS.jl"),
+        path="UnfoldBIDS.jl",
+        name="UnfoldBIDS.jl",
+        giturl="https://github.com/unfoldtoolbox/UnfoldBIDS.jl.git",),
+    MultiDocumenter.MultiDocRef(
+        upstream=joinpath(clonedir, "UnfoldStats.jl"),
+        path="UnfoldStats.jl",
+        name="UnfoldStats.jl",
+        giturl="https://github.com/unfoldtoolbox/UnfoldStats.jl.git",),
+    MultiDocumenter.MultiDocRef(
+        upstream=joinpath(clonedir, "UnfoldDecode.jl"),
+        path="UnfoldDecode.jl",
+        name="UnfoldDecode.jl",
+        giturl="https://github.com/unfoldtoolbox/UnfoldDecode.jl.git",),]
 
 #outpath = joinpath(@__DIR__, "out")
 
