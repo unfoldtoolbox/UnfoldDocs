@@ -44,7 +44,7 @@ MultiDocumenter.make(
 
 if "deploy" in ARGS
     @warn "Deploying to GitHub" ARGS
-    gitroot = normpath(joinpath(@__DIR__, ".."))
+    gitroot = @__DIR__#normpath(joinpath(@__DIR__, ".."))
     run(`git pull`)
     outbranch = "gh-pages"
     has_outbranch = true
@@ -75,6 +75,6 @@ if "deploy" in ARGS
         @info "No changes to aggregated documentation."
     end
 else
-    @info "Skipping deployment, 'deploy' not passed. Generated files in docs/out." ARGS
+    @info "Skipping deployment, 'deploy' not passed. Generated files in 'out'." ARGS
     cp(outpath, joinpath(@__DIR__, "out"), force=true)
 end
