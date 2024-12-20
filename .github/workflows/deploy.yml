@@ -22,7 +22,7 @@ jobs:
             ${{ runner.os }}-test-
             ${{ runner.os }}-
       - name: Install dependencies
-        run: julia --project=docs/ -e 'using Pkg; Pkg.instantiate()'
+        run: julia --project=./ -e 'using Pkg; Pkg.instantiate()'
       - name: Aggregate and deploy
         run: |
           git config user.name github-actions
