@@ -52,7 +52,7 @@ docs = [
 MultiDocumenter.make(
     outpath,
     docs;
-    rootpath="/Unfold.jlMultiDocs/",
+    rootpath="/UnfoldDocs/",
     canonical_domain="https://unfoldtoolbox.github.io/",
     search_engine=MultiDocumenter.SearchConfig(
         index_versions=["stable"],

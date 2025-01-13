@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - main
+  repository_dispatch:
+    types: [individual-docs-updated]
 jobs:
   aggregate:
     runs-on: ubuntu-latest
