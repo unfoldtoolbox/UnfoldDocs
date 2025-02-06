@@ -6,46 +6,64 @@ outpath = mktempdir()
 Cloning packages into: $(clonedir)
 Building aggregate site into: $(outpath)
 """
-
+generate_name(a, b, c) = MultiDocumenter.@htl("<div class=\"headertitle\"> $a </div><br> Unfold<span style=\"color:$c;\">$b</span>.jl")
 docs = [
     MultiDocumenter.MultiDocRef(
         upstream=joinpath(clonedir, "Unfold.jl"),
         path="Unfold.jl",
-        name="Unfold.jl",
+        name=generate_name("Analysis", "", "#ccc"),
         giturl="https://github.com/unfoldtoolbox/Unfold.jl.git",
+    ),
+    MultiDocumenter.MultiDocRef(
+        upstream=joinpath(clonedir, "UnfoldMixedModels.jl"),
+        path="UnfoldMixedModels.jl",
+        name=generate_name("LMM", "MixedModels", "#197BDD"),
+        giturl="https://github.com/unfoldtoolbox/UnfoldMixedModels.jl.git",
     ),
     MultiDocumenter.MultiDocRef(
         upstream=joinpath(clonedir, "UnfoldMakie.jl"),
         path="UnfoldMakie.jl",
-        name="Visualization",
+        name=generate_name("Visualization", "Makie", "#3AAA35"),#MultiDocumenter.@htl("<div class=\"headertitle\">Visualization </div><br> UnfoldMakie.jl"),
         giturl="https://github.com/unfoldtoolbox/UnfoldMakie.jl.git",
     ),
     MultiDocumenter.MultiDocRef(
         upstream=joinpath(clonedir, "UnfoldSim.jl"),
         path="UnfoldSim.jl",
-        name="Simulation",
-        giturl="https://github.com/unfoldtoolbox/UnfoldSim.jl.git",),
-    MultiDocumenter.MultiDocRef(
-        upstream=joinpath(clonedir, "UnfoldMixedModels.jl"),
-        path="UnfoldMixedModels.jl",
-        name="MixedModels",
-        giturl="https://github.com/unfoldtoolbox/UnfoldMixedModels.jl.git",
-    ),
+        name=generate_name("Simulation", "Sim", "#E6007E"),
+        giturl="https://github.com/unfoldtoolbox/UnfoldSim.jl.git"),
     MultiDocumenter.MultiDocRef(
         upstream=joinpath(clonedir, "UnfoldBIDS.jl"),
         path="UnfoldBIDS.jl",
-        name="BIDS-Pipeline",
-        giturl="https://github.com/unfoldtoolbox/UnfoldBIDS.jl.git",),
+        name=generate_name("Pipeline", "BIDS", "#FEC700"),
+        giturl="https://github.com/unfoldtoolbox/UnfoldBIDS.jl.git"),
     MultiDocumenter.MultiDocRef(
         upstream=joinpath(clonedir, "UnfoldStats.jl"),
         path="UnfoldStats.jl",
-        name="Statistics",
+        name=generate_name("Statistic", "Stats", "#E30613"),#MultiDocumenter.@htl("<div class=\"headertitle\">Statistic </div><br> UnfoldStats.jl"),
         giturl="https://github.com/unfoldtoolbox/UnfoldStats.jl.git",),
     MultiDocumenter.MultiDocRef(
         upstream=joinpath(clonedir, "UnfoldDecode.jl"),
         path="UnfoldDecode.jl",
-        name="Decoding",
-        giturl="https://github.com/unfoldtoolbox/UnfoldDecode.jl.git",),]
+        name=generate_name("Decoding", "Decode", "#009BA4"),#MultiDocumenter.@htl("<div class=\"headertitle\">Decoding </div><br> UnfoldDecode.jl"),
+        giturl="https://github.com/unfoldtoolbox/UnfoldDecode.jl.git",),
+    MultiDocumenter.DropdownNav("Related Tools", [
+        MultiDocumenter.MultiDocRef(
+            upstream=joinpath(clonedir, "ClusterDepth.jl"),
+            path="ClusterDepth.jl",
+            name=MultiDocumenter.@htl("<div class=\"headertitle\">Multiple Comparisons with ClusterDepth.jl</div>"),
+            giturl="https://github.com/s-ccs/ClusterDepth.jl.git",
+        ),
+        #=
+        pyMNE has no docs :S
+        MultiDocumenter.MultiDocRef(
+            upstream=joinpath(clonedir, "PyMNE"),
+            path="PyMNE.jl",
+            name=MultiDocumenter.@htl("PyMNE.jl",
+            giturl="https://github.com/beacon-biosignals/PyMNE.jl/",
+        ),=#
+        #DeepRecurrentEncoder.jl
+    ]),
+]
 
 #outpath = joinpath(@__DIR__, "out")
 
@@ -57,7 +75,11 @@ MultiDocumenter.make(
     search_engine=MultiDocumenter.SearchConfig(
         index_versions=["stable"],
         engine=MultiDocumenter.FlexSearch
-    )
+    ),
+    custom_stylesheets=["assets/style.css"],
+    hide_previews=true,
+    prettyurls=true,
+    assets_dir="assets"
 )
 
 
