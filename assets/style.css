@@ -1,0 +1,24 @@
+
+#multi-page-nav .search #search-input{
+    font-family: revert;
+}
+
+#multi-page-nav a.nav-link {
+    font-variant: small-caps;                                                             
+}
+
+#multi-page-nav #nav-items {
+flex-wrap:inherit;
+}
+
+#multi-page-nav .nav-item {
+    line-height: 10px !important;
+    text-align:center;
+    align-content:center;
+    text-transform: none !important;
+}
+
+.nav-dropdown {
+
+    display:flex;
+}
