@@ -17,8 +17,13 @@ flex-wrap:inherit;
     align-content:center;
     text-transform: none !important;
 }
-
+#multi-page-nav {
+    background-color:#1c1c1c;
+}
 .nav-dropdown {
 
     display:flex;
+}
+.search-keybinding{
+    padding-top:10px;
 }
