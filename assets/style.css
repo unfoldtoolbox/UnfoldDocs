@@ -17,6 +17,9 @@ flex-wrap:inherit;
 
         visibility: hidden;
 }
+.nav-dropdown .headertitle{
+    visibility: visible;
+}
 #multi-page-nav .nav-item:hover {
     transition: 0.3s;
     transform: translateY(0px);
@@ -25,7 +28,6 @@ flex-wrap:inherit;
     visibility: visible;
     transition: 0.3s;
     }
-
 
 
 #multi-page-nav .nav-item {
@@ -39,9 +41,14 @@ flex-wrap:inherit;
 #multi-page-nav {
     background-color:#1c1c1c;
 }
-.nav-dropdown {
+#multi-page-nav .nav-dropdown .nav-item{
+    transform:none;
+    line-height:15px !important;
+}
+.nav-dropdown{
+        transform: translateY(10px);
 
-    display:flex;
+    
 }
 .search-keybinding{
     padding-top:10px;
