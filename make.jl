@@ -7,6 +7,8 @@ Cloning packages into: $(clonedir)
 Building aggregate site into: $(outpath)
 """
 generate_name(a, b, c) = MultiDocumenter.@htl("<div class=\"headertitle\"> $a </div><br> Unfold<span style=\"color:$c;\">$b</span>.jl")
+
+#---
 docs = [
     MultiDocumenter.MultiDocRef(
         upstream=joinpath(clonedir, "Unfold.jl"),
@@ -66,7 +68,7 @@ docs = [
 ]
 
 #outpath = joinpath(@__DIR__, "out")
-
+#---
 MultiDocumenter.make(
     outpath,
     docs;
