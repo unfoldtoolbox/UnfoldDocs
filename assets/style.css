@@ -11,11 +11,30 @@
 flex-wrap:inherit;
 }
 
+.headertitle{
+    line-height:1.5;
+    border-bottom: 1px solid #888;
+
+        visibility: hidden;
+}
+#multi-page-nav .nav-item:hover {
+    transition: 0.3s;
+    transform: translateY(0px);
+    }
+#multi-page-nav .nav-item:hover .headertitle {
+    visibility: visible;
+    transition: 0.3s;
+    }
+
+
+
 #multi-page-nav .nav-item {
     line-height: 10px !important;
     text-align:center;
     align-content:center;
     text-transform: none !important;
+    transform: translateY(-15px);
+    transition: 0.15s;
 }
 #multi-page-nav {
     background-color:#1c1c1c;
