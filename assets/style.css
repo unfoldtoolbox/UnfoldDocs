@@ -26,7 +26,10 @@ flex-wrap:inherit;
     transition: 0.3s;
     }
 
-
+#multi-page-nav .nav-dropdown .nav-item{
+    transform:none;
+    line-height:15px !important;
+}
 
 #multi-page-nav .nav-item {
     line-height: 10px !important;
