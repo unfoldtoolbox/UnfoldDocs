@@ -1,4 +1,4 @@
-using MultiDocumenter
+using MultiDocumenter, Documenter
 
 clonedir = ("--temp" in ARGS) ? mktempdir() : joinpath(@__DIR__, "clones")
 outpath = mktempdir()
@@ -9,7 +9,23 @@ Building aggregate site into: $(outpath)
 generate_name(a, b, c) = MultiDocumenter.@htl("<div class=\"headertitle\"> $a </div><br> Unfold<span style=\"color:$c;\">$b</span>.jl")
 
 #---
+
+Documenter.makedocs(
+    sitename="Unfold.jl Ecosystem",
+    modules=Module[],
+    warnonly=true,
+    format=Documenter.HTML(; inventory_version="1.0.0"), pages=["index.md"],# "90-contribution.md", "91-developer.md"],
+)
+
+#---
+
 docs = [
+    MultiDocumenter.MultiDocRef(
+        upstream=joinpath(@__DIR__, "build"),
+        path="main",
+        name=MultiDocumenter.@htl("<div class=\"homebutton\">Home</div>"),
+        fix_canonical_url=false,
+    ),
     MultiDocumenter.MultiDocRef(
         upstream=joinpath(clonedir, "Unfold.jl"),
         path="Unfold.jl",
@@ -41,7 +57,7 @@ docs = [
     MultiDocumenter.MultiDocRef(
         upstream=joinpath(clonedir, "UnfoldStats.jl"),
         path="UnfoldStats.jl",
-        name=generate_name("Statistic", "Stats", "#E30613"),#MultiDocumenter.@htl("<div class=\"headertitle\">Statistic </div><br> UnfoldStats.jl"),
+        name=generate_name("Statistics", "Stats", "#E30613"),#MultiDocumenter.@htl("<div class=\"headertitle\">Statistic </div><br> UnfoldStats.jl"),
         giturl="https://github.com/unfoldtoolbox/UnfoldStats.jl.git",),
     MultiDocumenter.MultiDocRef(
         upstream=joinpath(clonedir, "UnfoldDecode.jl"),
