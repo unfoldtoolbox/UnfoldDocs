@@ -37,12 +37,35 @@ flex-wrap:inherit;
     text-transform: none !important;
     transform: translateY(-15px);
     transition: 0.15s;
+    padding: 0 0.75rem;
+    font-size: 1.25em;
 }
+
+html{
+    --navbar-height: 70px;
+}
+
+
+/*make the UnfoldBIDS "bids" part bold*/
+#multi-page-nav .nav-item span {
+font-weight: bold;
+}
+
+#multi-page-nav .nav-item .homebutton {
+    transform:translateY(19px);
+    }
+
+#multi-page-nav .nav-item:hover .homebutton {
+    transform:translateY(19px);
+}
+    
+
 #multi-page-nav {
     background-color:#1c1c1c;
 }
 #multi-page-nav .nav-dropdown .nav-item{
-    transform:none;
+    transform: translatey(10px);
+    
     line-height:15px !important;
 }
 .nav-dropdown{
