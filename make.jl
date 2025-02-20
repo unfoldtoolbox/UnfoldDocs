@@ -87,7 +87,7 @@ docs = [
 #---
 MultiDocumenter.make(
     outpath,
-    docs;
+    docs;#[1:1];
     rootpath="/UnfoldDocs/",
     canonical_domain="https://unfoldtoolbox.github.io/",
     search_engine=MultiDocumenter.SearchConfig(
