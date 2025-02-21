@@ -14,7 +14,17 @@ Documenter.makedocs(
     sitename="Unfold.jl Ecosystem",
     modules=Module[],
     warnonly=true,
-    format=Documenter.HTML(; inventory_version="1.0.0"), pages=["index.md"],# "90-contribution.md", "91-developer.md"],
+    format=Documenter.HTML(; inventory_version="1.0.0"),
+    pages=[
+        "Overview" => [
+            "index.md",
+            "Installation" => "installation.md"
+        ],
+        "Alternative packages" => "comparison.md",# "90-contribution.md", "91-developer.md"],
+        "Contributing?" => [
+            "Contribution Guide" => "contributing.md",
+            "Developer Guide" => "developer.md",
+        ],]
 )
 
 #---
@@ -87,7 +97,7 @@ docs = [
 #---
 MultiDocumenter.make(
     outpath,
-    docs;#[1:1];
+    docs,#[1:1];
     rootpath="/UnfoldDocs/",
     canonical_domain="https://unfoldtoolbox.github.io/",
     search_engine=MultiDocumenter.SearchConfig(
