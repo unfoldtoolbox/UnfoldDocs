@@ -122,7 +122,7 @@ In general, please cite the current Zenodo version of the toolbox - to provide a
 
 [Unfold.jl](https://doi.org/10.5281/zenodo.5759066)
 
-[UnfoldMakie.jl](https://doi.org/10.5281/zenodo.5759066)
+[UnfoldMakie.jl](https://doi.org/10.21105/joss.07560)
 
 [UnfoldSim.jl](https://doi.org/10.5281/zenodo.5759066)
 
