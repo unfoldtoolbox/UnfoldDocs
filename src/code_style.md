@@ -8,7 +8,7 @@
 4.2. Avoid deep nesting of loops and conditionals.
 5. Avoid putting more than 5 functions in a single file.  
 6. Avoid pull requests that affect more than 10 files.  
-7. Maintain consistent indentation and formatting across all files. Enforce it with linters (e.g., JuliaFormatter).
+7. Maintain consistent indentation and formatting across all files. Enforce it with formatters (e.g., JuliaFormatter).
 8. Write meaningful commit messages that explain what changed and why (e.g., "Refactored plot function for better readability" instead of "fix").
 9. Minimize external dependencies. Only use external libraries when necessary to avoid compatibility issues and to reduce installation and loading time.
 
