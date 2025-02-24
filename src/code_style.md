@@ -32,3 +32,6 @@ Backward compatibility means that newer versions of your software should work wi
 5. Comment the code, especially if the code is not self-explanatory. But don't overuse it.
 6. Provide meaningful error messages that guide users toward solutions.
 7. Test the usability of your code with non-expert users to identify pain points.
+
+
+Written by **Vladimir Mikheev**
