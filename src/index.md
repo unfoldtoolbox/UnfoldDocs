@@ -18,6 +18,7 @@ td {
 </thead>
 <tbody>
 
+<tr><td>Function</td><td><Logo</td>td><Main contributers</td></tr> 
 <tr><td>Analysis of regression ERPs </td><td><a href="https://github.com/unfoldtoolbox/Unfold.jl/tree/main"><picture>
  <source
 srcset="assets/300w/logo_Unfold.jl-dark.png",alt="Unfold.jl Logo dark"
@@ -29,7 +30,7 @@ srcset="assets/300w/logo_Unfold.jl-dark.png",alt="Unfold.jl Logo dark"
    alt="Unfold.jl Logo bright"
    class="h-[45vh] object-cover"          
  />
-</picture></a></td></tr> 
+</picture></a></td>td>B. Ehinger</td></tr> 
 <tr><td>Mass Univariate Linear Mixed Models</td><td><a href="https://github.com/unfoldtoolbox/UnfoldMixedModels.jl"><picture>
  <source
 srcset="assets/300w/logo_UnfoldMixedModels.jl-dark.png",alt="UnfoldMixedModels.jl Logo dark"
@@ -41,7 +42,7 @@ srcset="assets/300w/logo_UnfoldMixedModels.jl-dark.png",alt="UnfoldMixedModels.j
    alt="Unfold.jl Logo bright"
    class="h-[45vh] object-cover"          
  />
-</picture></a></td></tr>
+</picture></a></td><td>B. Ehinger</td></tr>
 <tr><td>Visualization of ERP/EEG data and Unfold models</td><td><a href="https://github.com/unfoldtoolbox/UnfoldMakie.jl"><picture>
  <source
 srcset="assets/300w/logo_UnfoldMakie.jl-dark.png",alt="UnfoldMakie.jl Logo dark"
@@ -53,7 +54,7 @@ srcset="assets/300w/logo_UnfoldMakie.jl-dark.png",alt="UnfoldMakie.jl Logo dark"
    alt="UnfoldMakie.jl Logo bright"
    class="h-[45vh] object-cover"          
  />
-</picture></a></td></tr>
+</picture></a></td><td>V. Mikheev, B. Ehinger</td></tr>
 <tr><td>Simulation of event-based EEG</td><td><a href="https://github.com/unfoldtoolbox/UnfoldSim.jl"><picture>
  <source
 srcset="assets/300w/logo_UnfoldSim.jl-dark.png",alt="UnfoldSim.jl Logo dark"
@@ -65,7 +66,7 @@ srcset="assets/300w/logo_UnfoldSim.jl-dark.png",alt="UnfoldSim.jl Logo dark"
    alt="UnfoldSim.jl Logo bright"
    class="h-[45vh] object-cover"          
  />
-</picture></a></td></tr>
+</picture></a></td><td>J. Schepers, B. Ehinger</td></tr>
 <tr><td>BIDS-pipeline support for Unfold.jl</td><td><a href="https://github.com/unfoldtoolbox/UnfoldBIDS.jl"><picture>
  <source
 srcset="assets/300w/logo_UnfoldBIDS.jl-dark.png",alt="UnfoldBIDS.jl Logo dark"
@@ -77,7 +78,7 @@ srcset="assets/300w/logo_UnfoldBIDS.jl-dark.png",alt="UnfoldBIDS.jl Logo dark"
    alt="UnfoldBIDS.jl Logo bright"
    class="h-[45vh] object-cover"          
  />
-</picture></a></td></tr>
+</picture></a></td><td>B. Ehinger</td></tr>
 <tr><td>Decoding with overlap/covariate correction</td><td><a href="https://github.com/unfoldtoolbox/UnfoldDecode.jl"><picture>
  <source
 srcset="assets/300w/logo_UnfoldDecode.jl-dark.png",alt="UnfoldDecode.jl Logo dark"
@@ -89,7 +90,7 @@ srcset="assets/300w/logo_UnfoldDecode.jl-dark.png",alt="UnfoldDecode.jl Logo dar
    alt="UnfoldDecode.jl Logo bright"
    class="h-[45vh] object-cover"          
  />
-</picture></a></td></tr>
+</picture></a></td><td>B. Ehinger</td></tr>
 <tr><td>Statistics for Unfold models</td><td><a href="https://github.com/unfoldtoolbox/UnfoldStats.jl"><picture>
  <source
 srcset="assets/300w/logo_UnfoldStats.jl-dark.png",alt="UnfoldStats.jl Logo dark"
@@ -101,7 +102,7 @@ srcset="assets/300w/logo_UnfoldStats.jl-dark.png",alt="UnfoldStats.jl Logo dark"
    alt="UnfoldStats.jl Logo bright"
    class="h-[45vh] object-cover"          
  />
-</picture></a></td></tr>
+</picture></a></td><td>B. Ehinger</td></tr>
 
 </tr>
 </tbody>
