@@ -59,7 +59,7 @@ pkg> activate
 pkg> add Revise
 ```
 
-If you added Revise.jl globally, it's generally a good idea to [start the package at Julia startup](https://m3g.github.io/JuliaNotes.jl/stable/startup/). To do this you just have to creat/ find your `.julia/config/startup.jl` and add `using Revise` to it.
+If you added Revise.jl globally, it's generally a good idea to [start the package at Julia startup](https://m3g.github.io/JuliaNotes.jl/stable/startup/). To do this you just have to create/find your `.julia/config/startup.jl` and add `using Revise` to it.
 
 ### Working on a new issue
 
