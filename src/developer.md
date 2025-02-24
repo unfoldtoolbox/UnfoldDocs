@@ -2,13 +2,13 @@
 
 Welcome to the developer documentation! We are excited that you are interested in contributing to our package.
 
-Feel free to submit your work in a state you are comfortable with—we genuinely appreciate every contribution! If you are interested in following best practices and learning along the way, keep reading. But don't worry, we welcome your input just as it is 🙂.
-
-
 !!! note "Contribution guide"
     If you haven't already, please read the [Contribution guide](contributing.md) first.
 
-Please note that the following documentation is adapted from the [BestieTemplate.jl developer documentation](https://juliabesties.github.io/BestieTemplate.jl/stable/91-developer/) but has been customized to fit our needs. This document was written by **Judith Schepers**.
+!!! important "Best practices not shackles"
+    We encourage you to share your contributions in whatever state you are comfortable with. So, don’t feel overwhelmed by the number of guides — think of them as helpful resources, not strict requirements. We genuinely appreciate every contribution, and we’re happy to refine things together! 🙂
+
+Please note that the following documentation is adapted from the [BestieTemplate.jl developer documentation](https://juliabesties.github.io/BestieTemplate.jl/stable/91-developer/) but has been customized to fit our needs. This document was mainly written by **Judith Schepers** with minor changes by **René Skukies**.
 
 ## Development/GitHub Workflow
 
@@ -59,6 +59,8 @@ pkg> activate
 pkg> add Revise
 ```
 
+If you added Revise.jl globally, it's generally a good idea to [start the package at Julia startup](https://m3g.github.io/JuliaNotes.jl/stable/startup/). To do this you just have to creat/ find your `.julia/config/startup.jl` and add `using Revise` to it.
+
 ### Working on a new issue
 
 We try to keep a linear Git history in this repository, so it is important to keep your branches up-to-date.
@@ -92,10 +94,11 @@ We try to keep a linear Git history in this repository, so it is important to ke
 - If the changes are not small and there is no associated issue, then either create an issue first, or discuss in another channel with the maintainers.
 - Use dash separated imperative wording related to the issue (e.g., `14-add-tests`, `15-fix-model`, `16-remove-obsolete-files`).
 
-#### Commit messages
+#### Commit (messages)
 
+- Please refrain from making huge commits; rather make smaller commits for specific changes
 - Use imperative or present tense, for instance: *Add feature* or *Fix bug*.
-- Have informative titles.
+- Have informative titles (i.e. **do not**: *fix UnfoldSim*; **do**: *fix issue creating events*).
 - When necessary, add a body with details.
 - If there are breaking changes, add the information to the commit message.
 
@@ -112,9 +115,6 @@ We try to keep a linear Git history in this repository, so it is important to ke
   ```
 
 - Then you can open a pull request and work with the reviewer to address any issues.
-
-!!! important "Best practices not shackles"
-    We encourage you to share your contributions in whatever state you are comfortable with. Don’t feel overwhelmed by the number of guides — think of them as helpful resources, not strict requirements. Every contribution is valuable, and we’re happy to refine things together! 
 
 ## Formatting
 
