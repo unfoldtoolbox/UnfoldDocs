@@ -18,7 +18,7 @@ td {
 </thead>
 <tbody>
 
-<tr><td>Function</td><td><Logo</td>td><Main contributers</td></tr> 
+<tr><td>Function</td><td><Logo</td><td><Main contributers</td></tr> 
 <tr><td>Analysis of regression ERPs </td><td><a href="https://github.com/unfoldtoolbox/Unfold.jl/tree/main"><picture>
  <source
 srcset="assets/300w/logo_Unfold.jl-dark.png",alt="Unfold.jl Logo dark"
@@ -30,7 +30,7 @@ srcset="assets/300w/logo_Unfold.jl-dark.png",alt="Unfold.jl Logo dark"
    alt="Unfold.jl Logo bright"
    class="h-[45vh] object-cover"          
  />
-</picture></a></td>td>B. Ehinger</td></tr> 
+</picture></a></td><td>B. Ehinger</td></tr> 
 <tr><td>Mass Univariate Linear Mixed Models</td><td><a href="https://github.com/unfoldtoolbox/UnfoldMixedModels.jl"><picture>
  <source
 srcset="assets/300w/logo_UnfoldMixedModels.jl-dark.png",alt="UnfoldMixedModels.jl Logo dark"
@@ -78,7 +78,7 @@ srcset="assets/300w/logo_UnfoldBIDS.jl-dark.png",alt="UnfoldBIDS.jl Logo dark"
    alt="UnfoldBIDS.jl Logo bright"
    class="h-[45vh] object-cover"          
  />
-</picture></a></td><td>B. Ehinger</td></tr>
+</picture></a></td><td>R. Skukis, B. Ehinger</td></tr>
 <tr><td>Decoding with overlap/covariate correction</td><td><a href="https://github.com/unfoldtoolbox/UnfoldDecode.jl"><picture>
  <source
 srcset="assets/300w/logo_UnfoldDecode.jl-dark.png",alt="UnfoldDecode.jl Logo dark"
@@ -102,7 +102,7 @@ srcset="assets/300w/logo_UnfoldStats.jl-dark.png",alt="UnfoldStats.jl Logo dark"
    alt="UnfoldStats.jl Logo bright"
    class="h-[45vh] object-cover"          
  />
-</picture></a></td><td>B. Ehinger</td></tr>
+</picture></a></td><td>J. Schepers, B. Ehinger</td></tr>
 
 </tr>
 </tbody>
