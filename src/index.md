@@ -1,6 +1,6 @@
 # Unfold Ecosystem
 
-The Unfold family are a set of time-series analysis, visualization and simulation toolboxes, centered around the regression ERP (rERP) framework. That is, applying multiple regression models to time-series data. While all packages have a focus on EEG data, they can typically easily be applied to pupil-dilation, skin-conducatance or even fMRI data.
+The Unfold family is a set of time-series analysis, visualization, and simulation toolboxes built around the Regression ERP (rERP) framework. That is, the application of multiple regression models to time series data. While all packages have a focus on EEG data, they can typically be easily applied to pupil dilation, skin conductance, or even fMRI data.
 
 ```@raw html
 <head>
@@ -42,7 +42,7 @@ srcset="assets/300w/logo_UnfoldMixedModels.jl-dark.png",alt="UnfoldMixedModels.j
    class="h-[45vh] object-cover"          
  />
 </picture></a></td></tr>
-<tr><td>Visualization of ERP/EEG/Unfold</td><td><a href="https://github.com/unfoldtoolbox/UnfoldMakie.jl"><picture>
+<tr><td>Visualization of ERP/EEG data and Unfold models</td><td><a href="https://github.com/unfoldtoolbox/UnfoldMakie.jl"><picture>
  <source
 srcset="assets/300w/logo_UnfoldMakie.jl-dark.png",alt="UnfoldMakie.jl Logo dark"
    media="(prefers-color-scheme: dark)"
@@ -78,7 +78,7 @@ srcset="assets/300w/logo_UnfoldBIDS.jl-dark.png",alt="UnfoldBIDS.jl Logo dark"
    class="h-[45vh] object-cover"          
  />
 </picture></a></td></tr>
-<tr><td>overlap/covariate - corrected decoding</td><td><a href="https://github.com/unfoldtoolbox/UnfoldDecode.jl"><picture>
+<tr><td>Decoding with overlap/covariate correction</td><td><a href="https://github.com/unfoldtoolbox/UnfoldDecode.jl"><picture>
  <source
 srcset="assets/300w/logo_UnfoldDecode.jl-dark.png",alt="UnfoldDecode.jl Logo dark"
    media="(prefers-color-scheme: dark)"
@@ -116,18 +116,18 @@ srcset="assets/300w/logo_UnfoldStats.jl-dark.png",alt="UnfoldStats.jl Logo dark"
 
 
 ## Citing
-Writing this software is an ongoing effort of many people. Please cite the use of our tools, so we can continue developing tools for the community!
+Writing this software is an ongoing effort by many people. Please credit the use of our tools so that we can continue to develop tools for the community!
 
-In general, please cite the current Zenodo version of the toolbox - to provide acknowledgment to the current contributors and maintainers, **and** the published paper to acknowledge the initial effort to start a tool.
+In general, please cite the current Zenodo version of the toolbox (to give credit to current contributors and maintainers) **and** the published paper (to give credit to the initial effort to start a tool).
 
-[Unfold.jl](https://doi.org/10.5281/zenodo.5759066)
+Unfold.jl: [Zenodo version](https://doi.org/10.5281/zenodo.5759066) and [published paper](https://doi.org/10.7717/peerj.7838)
 
-[UnfoldMakie.jl](https://doi.org/10.21105/joss.07560)
+UnfoldMakie.jl: [Zenodo version](https://zenodo.org/records/14192333) and [published paper](https://doi.org/10.21105/joss.07560)
 
-[UnfoldSim.jl](https://doi.org/10.5281/zenodo.5759066)
+UnfoldSim.jl: [Zenodo version](https://zenodo.org/records/14894630) and [published paper](https://doi.org/10.21105/joss.07560) (upd later)
 
-[UnfoldDecode.jl](https://doi.org/10.5281/zenodo.5759066)
+[UnfoldDecode.jl](https://doi.org/10.5281/zenodo.5759066) (upd later)
 
-[UnfoldBIDS.jl](https://doi.org/10.5281/zenodo.5759066)
+[UnfoldBIDS.jl](https://doi.org/10.5281/zenodo.5759066) (upd later)
 
-[UnfoldStats.jl](https://doi.org/10.5281/zenodo.5759066)
+[UnfoldStats.jl](https://doi.org/10.5281/zenodo.5759066) (upd later)
