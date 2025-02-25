@@ -21,7 +21,7 @@ Please note that the following documentation is adapted from the [BestieTemplate
 If this is the first time you work with this repository, follow the instructions below to clone the repository and create a `dev` version. 
 
 !!! tip "`dev` version of a Julia package"
-    Having a `dev` (development) version of a Julia package allows you to import a local version of the package with your changes instead of the registered package version (which is static). Remeber, that could be changes in the code which are not yet registered. 
+    Having a `dev` (development) version of a Julia package allows you to import a local version of the package with your changes instead of the registered package version (which is static). Keep in mind that there may be changes in the main branch that are not yet in any registered version.
 
 #### a) If you have writing access for the GitHub repository
 (we will use `UnfoldSim` as an example)
@@ -51,7 +51,6 @@ You will create branches and push to `origin`, and you will fetch and update you
 
 ### Revise.jl
 Further, we recommend to use [`Revise.jl`](https://github.com/timholy/Revise.jl): a Julia package which allows you to track source code changes in a running Julia session without need to restart it and reload the package.
-Potential usage: you made changes in the code, but the output of function did not change. 
 
 We recommend to install it in the global environment:
 ```julia-repl

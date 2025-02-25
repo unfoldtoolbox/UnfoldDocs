@@ -1,6 +1,6 @@
 # Unfold Ecosystem
 
-The Unfold family is a set of time-series analysis, visualization, and simulation toolboxes built around the Regression ERP (rERP) framework. That is, the application of multiple regression models to time series data. While all packages have a focus on EEG data, they can typically be easily applied to pupil dilation, skin conductance, or even fMRI data.
+The Unfold family is a set of time-series analysis, visualization, and simulation toolboxes built around the regression ERP (rERP) framework. That is, the application of multiple regression models to time series data. While all packages have a focus on EEG data, they can typically be easily applied to pupil dilation, skin conductance, or even fMRI data.
 
 ```@raw html
 <head>
@@ -18,7 +18,7 @@ td {
 </thead>
 <tbody>
 
-<tr><td>Function</td><td><Logo</td><td><Main contributers</td></tr> 
+<tr><td>Function</td><td><Logo</td><td><Maintainers</td></tr> 
 <tr><td>Analysis of regression ERPs </td><td><a href="https://github.com/unfoldtoolbox/Unfold.jl/tree/main"><picture>
  <source
 srcset="assets/300w/logo_Unfold.jl-dark.png",alt="Unfold.jl Logo dark"
