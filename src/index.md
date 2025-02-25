@@ -117,7 +117,7 @@ srcset="assets/300w/logo_UnfoldStats.jl-dark.png",alt="UnfoldStats.jl Logo dark"
 
 
 ## Citing
-Writing this software is an ongoing effort by many people. Please credit the use of our tools so that we can continue to develop tools for the community!
+Writing this software is an ongoing effort by many people. Please cite our tools when using them so that we can continue developing tools for the community!
 
 In general, please cite the current Zenodo version of the toolbox (to give credit to current contributors and maintainers) **and** the published paper (to give credit to the initial effort to start a tool).
 
