@@ -24,6 +24,7 @@ Documenter.makedocs(
         "Contributing?" => [
             "Contribution Guide" => "contributing.md",
             "Developer Guide" => "developer.md",
+            "Code Style" => "code_style.md",
         ],]
 )
 

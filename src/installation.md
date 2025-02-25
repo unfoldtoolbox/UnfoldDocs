@@ -1,4 +1,4 @@
-# Installing Julia & Unfold-Packages
+# Installing Julia & Unfold Packages
 
 ## Installing Julia
 
