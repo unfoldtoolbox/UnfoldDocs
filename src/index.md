@@ -125,7 +125,7 @@ Unfold.jl: [Zenodo version](https://doi.org/10.5281/zenodo.5759066) and [publish
 
 UnfoldMakie.jl: [Zenodo version](https://zenodo.org/records/14192333) and [published paper](https://doi.org/10.21105/joss.07560)
 
-UnfoldSim.jl: [Zenodo version](https://zenodo.org/records/14894630) and [published paper](https://doi.org/10.21105/joss.07560) (upd later)
+UnfoldSim.jl: [Zenodo version](https://doi.org/10.5281/zenodo.7738651)
 
 [UnfoldDecode.jl](https://doi.org/10.5281/zenodo.5759066) (upd later)
 
