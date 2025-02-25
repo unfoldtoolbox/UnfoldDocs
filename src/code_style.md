@@ -17,7 +17,7 @@
 # Backward compatibility 
 New versions of your software should produce exactly the same output without any changes to the user's code. If not, a breaking release is necessary.
 
-1. Provide a clear changelog for new versions, detailing new features, fixes, and potential breaking changes.
+1. Provide a clear changelog for new versions, detailing new features, fixes, and potential breaking changes. [Example](https://github.com/unfoldtoolbox/Unfold.jl/releases).
 2. Avoid breaking changes whenever possible. 
 3. Ensure consistent output formats. If your function previously returned a dictionary, avoid switching it to a list unless necessary.
 4. Use deprecation warnings. If a feature will be removed in future versions, notify users with warnings instead of immediately breaking their code.
