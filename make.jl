@@ -21,9 +21,9 @@ Documenter.makedocs(
             "Installation" => "installation.md"
         ],
         "Alternative packages" => "comparison.md",# "90-contribution.md", "91-developer.md"],
-        "Why Julia?" => "whyjulia.md",
+        #"Why Julia?" => "whyjulia.md",
         "Contributing?" => [
-            "Overview" => "contributing.md",
+            "Overview" => "contr_overview.md",
             "Developer Workflow" => "contr_dev-workflow.md",
             "Formatting" => "contr_formatting.md",
             "Testing" => "contr_testing.md",
