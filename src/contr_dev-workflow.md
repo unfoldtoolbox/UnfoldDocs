@@ -104,7 +104,9 @@ We try to keep a linear Git history in this repository, so it is important to ke
 
 - Then you can open a pull request and work with the reviewer to address any issues.
 
+### Working with a pull request
 
+Ideally, one pull request should solve one problem. Otherwise, it is difficult to review and track changes.
 
 
 Written by **Judith Schepers**.
