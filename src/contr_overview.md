@@ -1,6 +1,14 @@
 # Contribution guide
-Contributions are very welcome. These could be typos, bug reports, feature requests, speed optimization, better code, and better documentation.
-You are very welcome to raise issues and start pull requests.
+
+Welcome to the developer documentation! We are excited that you are interested in contributing to our package.
+
+Contributions are very welcome. These could be typos, bug reports, feature requests, speed optimization, better code, and better documentation. You are very welcome to raise issues and start pull requests.
+
+
+!!! important "Best practices not shackles"
+    We encourage you to share your contributions in whatever state you are comfortable with. Don’t feel overwhelmed by the amount of guidelines and tipps we offer here — think of them as helpful resources, not strict requirements. Every contribution is valuable, and we’re happy to refine things together! 
+
+
 
 ## Github issues
 We always appreciate people raising issues to improve our packages. If you find any such issue, please refrain from writing us directly and instead raise them on Github with a suitable tag in the respective package repository.
