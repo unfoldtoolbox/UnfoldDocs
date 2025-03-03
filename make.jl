@@ -28,6 +28,7 @@ Documenter.makedocs(
             "Formatting" => "contr_formatting.md",
             "Testing" => "contr_testing.md",
             "Documentation" => "contr_docs.md",
+            "Code Style" => "code_style.md",
             #"Style Guide"
         ],]
 )
