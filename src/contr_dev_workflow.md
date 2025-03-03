@@ -50,6 +50,8 @@ pkg> activate
 pkg> add Revise
 ```
 
+If you added Revise.jl globally, it's generally a good idea to [start the package at Julia startup](https://m3g.github.io/JuliaNotes.jl/stable/startup/). To do this you just have to create/find your `.julia/config/startup.jl` and add `using Revise` to it.
+
 ### Working on a new issue
 
 We try to keep a linear Git history in this repository, so it is important to keep your branches up-to-date.
@@ -85,8 +87,9 @@ We try to keep a linear Git history in this repository, so it is important to ke
 
 #### Commit messages
 
+- Please refrain from making huge commits; rather make smaller commits for specific changes.
 - Use imperative or present tense, for instance: *Add feature* or *Fix bug*.
-- Have informative titles.
+- Have informative titles (i.e. **do not**: *fix UnfoldSim*; **do**: *fix issue creating events*).
 - When necessary, add a body with details.
 - If there are breaking changes, add the information to the commit message.
 
