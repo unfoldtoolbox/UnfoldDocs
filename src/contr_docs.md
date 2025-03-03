@@ -2,7 +2,7 @@
 
 Documentation is key to maintaining a codebase that is easy to understand and extend.
 Whether it is comments in the code, docstrings, or tutorials, when writing documentation,
- think about your future self or the next person reading the code or using your functions.
+ think about your future self or the next person who will read your code or use your functions.
 
 ### Building and viewing the documentation locally
 
@@ -12,7 +12,7 @@ To simplify this process we created the `docs/run_liveserver.jl` script.
 Please follow these steps:
 
 1. Navigate to the `docs` folder and activate it.
-2. Run `using Revise` (in case you decided to install it in your docs environment).
+2. Run `using Revise`.
 3. If this is the first time building the docs
    1. Press `]` to enter `pkg` mode.
    2. Run `pkg> dev ..` to use the development version of your package.
@@ -27,7 +27,7 @@ Please follow these steps:
     We recommend using a separate Julia session (in VSCode) to run the `run_liveserver.jl` script, as it continues running. This way, you can avoid "blocking" the REPL and run other code in the meantime.
 
 ### Adding a documentation page
-1. We recommend to write a Literate.jl document and place it in `docs/literate/FOLDER/FILENAME.jl` with `FOLDER` being `HowTo`, `Explanation`, `Tutorial` or `Reference` ([recommended reading on the 4 categories](https://documentation.divio.com/)).
+1. We recommend to write `Literate.jl` document and place it in `docs/literate/FOLDER/FILENAME.jl` with `FOLDER` being `HowTo`, `Explanation`, `Tutorial` or `Reference` ([recommended reading on the 4 categories](https://documentation.divio.com/)).
 2. Literate.jl converts the `.jl` file to a `.md` automatically and places it in `docs/src/generated/FOLDER/FILENAME.md`.
 3. Edit [make.jl](https://github.com/unfoldtoolbox/Unfold.jl/blob/main/docs/make.jl) with a reference to `docs/src/generated/FOLDER/FILENAME.md`.
 
@@ -67,8 +67,8 @@ See also [`my_function2`](@ref), [`my_function3`](@ref).
 """
 ````
 **Special cases:**
-- If a function accepts many keyword arguments, only include `<keyword arguments>` as a placeholder in the signature and give a keyword list with descriptions in the Keyword arguments section of the docstring.
-- If a function returns more than one variable, write the Returns section in the following way:
+- If a function accepts many keyword arguments, only include `<keyword arguments>` as a placeholder in the signature and give a keyword list with descriptions in the `Keyword arguments` section of the docstring.
+- If a function returns more than one variable, write the `Returns` section in the following way:
   ```julia
   # Returns
   - (result1, result2)::Tuple{Type1, Type2}:

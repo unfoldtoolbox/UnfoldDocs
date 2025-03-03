@@ -1,21 +1,21 @@
 
 
 ## Development/GitHub Workflow
-The following documentation is adapted from the [BestieTemplate.jl developer documentation](https://juliabesties.github.io/BestieTemplate.jl/stable/91-developer/) but has been customized to fit our needs.  
+The following documentation is based on the [BestieTemplate.jl developer documentation](https://juliabesties.github.io/BestieTemplate.jl/stable/91-developer/), but has been adapted to our needs.  
 
 ### Before you start coding
-1. Check whether there exists a GitHub issue about the topic (e.g. bug, new feature etc). If not create one with a short description of the problem or feature idea.
-2. Discuss your approach with the package maintainers either in the issue or via another channel.
+1. Check if a GitHub issue exists for the topic (e.g. bug, new feature, etc.). If not, create one with a brief description of the problem or feature idea.
+2. Discuss your approach with the maintainers, either in the issue or through another channel.
 
 ### First time clone & development version
 
-If this is the first time you work with this repository, follow the instructions below to clone the repository and create a `dev` version. 
+Follow the instructions below to clone the repository and create a `dev' version if you are working with this repository for the first time.
 
 !!! tip "`dev` version of a Julia package"
     Having a `dev` (development) version of a Julia package allows you to import a local version of the package with your changes instead of the registered package version (which is static).
 
-#### a) If you have writing access for the GitHub repository
-(we will use `UnfoldSim` as an example)
+#### a) If you have writing access to the GitHub repository
+(`UnfoldSim` is used as an example)  
 - Option 1: Clone this repository using `git clone`.
 - Option 2 (recommended): Use the Julia `dev` command to create a development version of the package:
     1. Start a Julia session and run `cd("/path/to/your/project")` to navigate to your project folder.
@@ -92,9 +92,9 @@ We try to keep a linear Git history in this repository, so it is important to ke
 
 ### Before creating a pull request
 
-- Ideally: Make sure the tests pass (see [Testing](@ref)).
+- Make sure the tests pass (see [Testing](@ref)).
 - Add appropriate documentation (ideally using the [Docstring templates](@ref)).
-- Ideally: Follow the formatting rules from `JuliaFormatter.jl` (see [Formatting](@ref)).
+- Follow the formatting rules from `JuliaFormatter.jl` (see [Formatting](@ref)).
 - Fetch any `main` updates from upstream and rebase your branch, if necessary:
 
   ```bash
@@ -106,7 +106,7 @@ We try to keep a linear Git history in this repository, so it is important to ke
 
 ### Working with a pull request
 
-Ideally, one pull request should solve one problem. Otherwise, it is difficult to review and track changes.
+Ideally, one pull request should solve one problem. Otherwise, it becomes difficult to review and track changes.
 
 
 Written by **Judith Schepers**.
