@@ -24,12 +24,11 @@ Documenter.makedocs(
         #"Why Julia?" => "whyjulia.md",
         "Contributing?" => [
             "Overview" => "contr_overview.md",
-            "Developer Workflow" => "contr_dev-workflow.md",
-            "Formatting" => "contr_formatting.md",
+            "Developer Workflow" => "contr_dev_workflow.md",
             "Testing" => "contr_testing.md",
             "Documentation" => "contr_docs.md",
+            "Formatting" => "contr_formatting.md",
             "Code Style" => "code_style.md",
-            #"Style Guide"
         ],]
 )
 
