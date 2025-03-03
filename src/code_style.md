@@ -1,38 +1,29 @@
-# Clear Code  
+# Clear and concise Code  
+1. Variables and Function Names should have meaningful names and we try to follow the [Julia naming convention](https://docs.julialang.org/en/v1/manual/style-guide/#Use-naming-conventions-consistent-with-Julia-base/). Try to find names that are descriptive and domain specific, e.g. `generate_events`.
+2. Try to structure your program into meaningful subfunctions. As a rule of thumb, if your function is longer than 50 lines of code, has nested loops, nested if-else clauses, you'd better have a justification for it, or refactor it into smaller, reusable (and testable) functions.
+3. Structure your functions into multiple files, separated on a conceptual basis.
+4. Try to keep formatting consistent across all files. Enforce it with linters (e.g., [`JuliaFormatter`](https://domluna.github.io/JuliaFormatter.jl/stable/)).
+5. Minimize external dependencies. Use external libraries only when necessary to avoid compatibility issues and reduce installation and load times.
+6. Comment your code, especially if the code is not self-explanatory.
+7. Modularity: It's best if users can customize functionality without having to modify the package code. Good practices: avoid hardcoded parameters, make attributes (e.g. in figures) customizable, use inheritance from `AbstractTypes`.
+6. Most users will not check the defaults, so it is important to encourage them to label important default details on the figures or in the analysis results.
 
-1. Code should be clear and concise.  
-2. Variables in the code should have meaningful names.  
-3. Function naming should follow [Julia naming convention](https://docs.julialang.org/en/v1/manual/style-guide/#Use-naming-conventions-consistent-with-Julia-base/).
-3.1. If necessary, function names should be based on some theoretical background. For example, if you want to create a function to plot a scatterplot (established name), call it `plot_scatterplot', but not `plot_dots'. 
-4. Avoid functions longer than 50 lines of code to improve code readability. It makes it hard to read and search.
-4.1. Write modular code by breaking complex tasks into smaller, reusable functions.
-4.2. Avoid multiple loop in loops or conditions in conditions.
-5. Avoid putting more than 5 functions in a single file. It prevents readablitiy in searching. 
-6. Avoid pull requests that affect more than 10 files. Ideally, one pull request should solve one problem. Otherwise, it is difficult to review and track changes.
-7. Maintain consistent indentation and formatting across all files. Enforce it with linters (e.g., JuliaFormatter).
-8. Write meaningful commit messages that explain what changed and why. Check how to write them [here](https://unfoldtoolbox.github.io/UnfoldDocs/main/developer/#Commit-messages).
-9. Minimize external dependencies. Only use external libraries when necessary to avoid compatibility issues and to reduce installation and loading time.
-10. Comment the code, especially if the code is not self-explanatory.
 
 # Backward compatibility 
-New versions of your software should produce exactly the same output without any changes to the user's code. If not, a breaking release is necessary.
+New versions of your software should produce exactly the same output without any changes to the user's code. If not, a breaking release is required.
 
-1. Provide a clear changelog for new versions, detailing new features, fixes, and potential breaking changes. [Example](https://github.com/unfoldtoolbox/Unfold.jl/releases).
-2. Avoid breaking changes whenever possible. 
-3. Ensure consistent output formats. If your function previously returned a dictionary, avoid switching it to a list unless necessary.
-4. Use deprecation warnings. If a feature will be removed in future versions, notify users with warnings instead of immediately breaking their code.
-5. Use versioned documentation. Keep documentation for previous versions accessible so users with older codebases can still find relevant information.
-6. Avoid removing or renaming functions or their arguments. If you must remove a function or its argument, keep the old name as an alias or mark it as deprecated before removal.
+1. Maintain a clear changelog for new releases. Include down major and breaking changes, new features, documentation updates, and bug fixes.  [Example](https://github.com/unfoldtoolbox/UnfoldSim.jl/releases).
+2. Avoid breaking changes whenever possible. The change is considered as breaking if you alter:
+  - function names;  
+  - argument names;  
+  - output formats (e.g. switching from `dict` to `vector`).  
+3. Use deprecation warnings. If a feature is going to be removed in a future release, use deprecation warnings (`@deprecate') to tell users what has changed and how to use the function now.
 
-# User-Friendliness  
-
-1. Every function exposed to the user should have docstrings specifying all parameters, their types, and input/output arguments. Check the [Template](https://unfoldtoolbox.github.io/UnfoldDocs/main/developer/#Docstring-templates). 
-2. Ensure the documentation includes visual and code examples where applicable. Expecially, if the figure is commonly used and/or complex.   
-3. Provide meaningful error messages that guide users toward solutions.
-4. Test the usability of your code with non-expert users to identify areas of improvement.
-5. For figures:
-5.1. Users should have the ability to customize all parts of the figure.  
-5.2. Most users will not check the default settings, so it is important to encourage them to label key details of the figure. 
-
+# User-Friendliness / Documentation
+1. Every function exposed to the user should have docstrings specifying all parameters, their types, and input/output arguments. Check the [Template](https://unfoldtoolbox.github.io/UnfoldDocs/main/developer/#Docstring-templates).
+2. Try to organise your documentation based on [four ways of documentation](https://docs.divio.com/documentation-system/): tutorials, how-to's, explanation and reference documentation.
+3. Try to include visuals and code examples in the documentation.
+4. Provide meaningful error messages that guide users to solutions.
+5. If possible, test the usability of your documentation with non-expert users to identify areas for improvement.
 
 Written by **Vladimir Mikheev**
