@@ -2,7 +2,7 @@
 
 Welcome to the developer documentation! We are excited that you are interested in contributing to our package.
 
-Feel free to submit your work in a state you are comfortable with—we genuinely appreciate every contribution! If you are interested in following best practices and learning along the way, keep reading. But don't worry, we welcome your input just as it is 🙂.
+Feel free to submit your work in a state you are comfortable with. We genuinely appreciate every contribution! If you are interested in following best practices and learning along the way, keep reading. But don't worry, we welcome your input just as it is 🙂.
 
 
 !!! note "Contribution guide"
@@ -21,7 +21,7 @@ Please note that the following documentation is adapted from the [BestieTemplate
 If this is the first time you work with this repository, follow the instructions below to clone the repository and create a `dev` version. 
 
 !!! tip "`dev` version of a Julia package"
-    Having a `dev` (development) version of a Julia package allows you to import a local version of the package with your changes instead of the registered package version (which is static).
+    Having a `dev` (development) version of a Julia package allows you to import a local version of the package with your changes instead of the registered package version (which is static). Keep in mind that there may be changes in the main branch that are not yet in any registered version.
 
 #### a) If you have writing access for the GitHub repository
 (we will use `UnfoldSim` as an example)
