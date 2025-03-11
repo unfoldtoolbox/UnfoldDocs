@@ -17,8 +17,6 @@ td {
 
 </thead>
 <tbody>
-
-<tr><td>Function</td><td><Logo</td></tr> 
 <tr><td>Analysis of regression ERPs </td><td><a href="https://github.com/unfoldtoolbox/Unfold.jl/tree/main"><picture>
  <source
 srcset="assets/300w/logo_Unfold.jl-dark.png",alt="Unfold.jl Logo dark"
