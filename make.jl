@@ -20,7 +20,9 @@ Documenter.makedocs(
             "index.md",
             "Installation" => "installation.md"
         ],
-        "Alternative packages" => "comparison.md",# "90-contribution.md", "91-developer.md"],
+        "Alternatives" => [
+            "Other rERP/TRF packages"=>"comparison.md",
+            ],# "90-contribution.md", "91-developer.md"],
         #"Why Julia?" => "whyjulia.md",
         "Contributing?" => [
             "Overview" => "contr_overview.md",
