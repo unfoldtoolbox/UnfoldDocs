@@ -18,7 +18,7 @@ td {
 </thead>
 <tbody>
 
-<tr><td>Function</td><td><Logo</td><td><Maintainers</td></tr> 
+<tr><td>Function</td><td><Logo</td></tr> 
 <tr><td>Analysis of regression ERPs </td><td><a href="https://github.com/unfoldtoolbox/Unfold.jl/tree/main"><picture>
  <source
 srcset="assets/300w/logo_Unfold.jl-dark.png",alt="Unfold.jl Logo dark"
@@ -30,7 +30,7 @@ srcset="assets/300w/logo_Unfold.jl-dark.png",alt="Unfold.jl Logo dark"
    alt="Unfold.jl Logo bright"
    class="h-[45vh] object-cover"          
  />
-</picture></a></td><td>B. Ehinger</td></tr> 
+</picture></a></td></tr> 
 <tr><td>Mass Univariate Linear Mixed Models</td><td><a href="https://github.com/unfoldtoolbox/UnfoldMixedModels.jl"><picture>
  <source
 srcset="assets/300w/logo_UnfoldMixedModels.jl-dark.png",alt="UnfoldMixedModels.jl Logo dark"
@@ -42,7 +42,7 @@ srcset="assets/300w/logo_UnfoldMixedModels.jl-dark.png",alt="UnfoldMixedModels.j
    alt="Unfold.jl Logo bright"
    class="h-[45vh] object-cover"          
  />
-</picture></a></td><td>B. Ehinger</td></tr>
+</picture></a></td></tr>
 <tr><td>Visualization of ERP/EEG data and Unfold models</td><td><a href="https://github.com/unfoldtoolbox/UnfoldMakie.jl"><picture>
  <source
 srcset="assets/300w/logo_UnfoldMakie.jl-dark.png",alt="UnfoldMakie.jl Logo dark"
@@ -54,7 +54,7 @@ srcset="assets/300w/logo_UnfoldMakie.jl-dark.png",alt="UnfoldMakie.jl Logo dark"
    alt="UnfoldMakie.jl Logo bright"
    class="h-[45vh] object-cover"          
  />
-</picture></a></td><td>V. Mikheev, B. Ehinger</td></tr>
+</picture></a></td></tr>
 <tr><td>Simulation of event-based EEG</td><td><a href="https://github.com/unfoldtoolbox/UnfoldSim.jl"><picture>
  <source
 srcset="assets/300w/logo_UnfoldSim.jl-dark.png",alt="UnfoldSim.jl Logo dark"
@@ -66,7 +66,7 @@ srcset="assets/300w/logo_UnfoldSim.jl-dark.png",alt="UnfoldSim.jl Logo dark"
    alt="UnfoldSim.jl Logo bright"
    class="h-[45vh] object-cover"          
  />
-</picture></a></td><td>J. Schepers, B. Ehinger</td></tr>
+</picture></a></td></tr>
 <tr><td>BIDS-pipeline support for Unfold.jl</td><td><a href="https://github.com/unfoldtoolbox/UnfoldBIDS.jl"><picture>
  <source
 srcset="assets/300w/logo_UnfoldBIDS.jl-dark.png",alt="UnfoldBIDS.jl Logo dark"
@@ -78,7 +78,7 @@ srcset="assets/300w/logo_UnfoldBIDS.jl-dark.png",alt="UnfoldBIDS.jl Logo dark"
    alt="UnfoldBIDS.jl Logo bright"
    class="h-[45vh] object-cover"          
  />
-</picture></a></td><td>R. Skukis, B. Ehinger</td></tr>
+</picture></a></td></tr>
 <tr><td>Decoding with overlap/covariate correction</td><td><a href="https://github.com/unfoldtoolbox/UnfoldDecode.jl"><picture>
  <source
 srcset="assets/300w/logo_UnfoldDecode.jl-dark.png",alt="UnfoldDecode.jl Logo dark"
@@ -90,7 +90,7 @@ srcset="assets/300w/logo_UnfoldDecode.jl-dark.png",alt="UnfoldDecode.jl Logo dar
    alt="UnfoldDecode.jl Logo bright"
    class="h-[45vh] object-cover"          
  />
-</picture></a></td><td>B. Ehinger</td></tr>
+</picture></a></td></tr>
 <tr><td>Statistics for Unfold models</td><td><a href="https://github.com/unfoldtoolbox/UnfoldStats.jl"><picture>
  <source
 srcset="assets/300w/logo_UnfoldStats.jl-dark.png",alt="UnfoldStats.jl Logo dark"
@@ -102,7 +102,7 @@ srcset="assets/300w/logo_UnfoldStats.jl-dark.png",alt="UnfoldStats.jl Logo dark"
    alt="UnfoldStats.jl Logo bright"
    class="h-[45vh] object-cover"          
  />
-</picture></a></td><td>J. Schepers, B. Ehinger</td></tr>
+</picture></a></td></tr>
 
 </tr>
 </tbody>
@@ -121,14 +121,14 @@ Writing this software is an ongoing effort by many people. Please cite our tools
 
 In general, please cite the current Zenodo version of the toolbox (to give credit to the current contributors and maintainers) **and** the published paper (to acknowledge the initial effort to start a tool).
 
-Unfold.jl: [Zenodo version](https://doi.org/10.5281/zenodo.5759066) and [published paper](https://doi.org/10.7717/peerj.7838)
+**Unfold.jl**: [Zenodo DOI](https://doi.org/10.5281/zenodo.5759066) and [published paper](https://doi.org/10.7717/peerj.7838)
 
-UnfoldMakie.jl: [Zenodo version](https://zenodo.org/records/14192333) and [published paper](https://doi.org/10.21105/joss.07560)
+**UnfoldMakie.jl**: [Zenodo DOI](https://zenodo.org/records/14192333) and [published paper](https://doi.org/10.21105/joss.07560)
 
-UnfoldSim.jl: [Zenodo version](https://doi.org/10.5281/zenodo.7738651)
+**UnfoldSim.jl**: [Zenodo DOI](https://doi.org/10.5281/zenodo.7738651)
 
-[UnfoldDecode.jl](https://doi.org/10.5281/zenodo.5759066) (upd later)
+**UnfoldBIDS.jl**: [Zenodo DOI](https://doi.org/10.5281/zenodo.5759066)
 
-[UnfoldBIDS.jl](https://doi.org/10.5281/zenodo.5759066) (upd later)
+**UnfoldStats.jl**: [Zenodo DOI](https://doi.org/10.5281/zenodo.14946964)
 
-[UnfoldStats.jl](https://doi.org/10.5281/zenodo.5759066) (upd later)
+**UnfoldDecode.jl**: no DOI yet
