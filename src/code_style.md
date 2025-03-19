@@ -2,18 +2,18 @@
 1. Variables and Function Names should have meaningful names and we try to follow the [Julia naming convention](https://docs.julialang.org/en/v1/manual/style-guide/#Use-naming-conventions-consistent-with-Julia-base/). Try to find names that are descriptive and domain specific, e.g. `generate_events`.
 2. Try to structure your program into meaningful subfunctions. As a rule of thumb, if your function is longer than 50 lines of code, has nested loops, nested if-else clauses, you'd better have a justification for it, or refactor it into smaller, reusable (and testable) functions.
 3. Structure your functions into multiple files, separated on a conceptual basis.
-4. Try to keep formatting consistent across all files. Enforce it with linters (e.g., [`JuliaFormatter`](https://domluna.github.io/JuliaFormatter.jl/stable/)).
+4. Try to keep [formatting consistent across all files](https://unfoldtoolbox.github.io/UnfoldDocs/main/contr_formatting/).
 5. Minimize external dependencies. Use external libraries only when necessary to avoid compatibility issues and reduce installation and load times.
 6. Comment your code, especially if the code is not self-explanatory.
 7. Modularity: It's best if users can customize functionality without having to modify the package code. Good practices: avoid hardcoded parameters, make attributes (e.g. in figures) customizable, use inheritance from `AbstractTypes`.
-6. Most users will not check the defaults, so it is important to encourage them to label important default details on the figures or in the analysis results.
+6. Most users will not check the defaults, make sure the defaults are sensible, potentially nudge users to provide their own with warnings.
 
 
 # Backward compatibility 
-New versions of your software should produce exactly the same output without any changes to the user's code. If not, a breaking release is required.
+Ideally, new versions should produce the same results without any changes to the user's code. If not, a breaking release is required to indicate changed behavior.
 
 1. Maintain a clear changelog for new releases. Include down major and breaking changes, new features, documentation updates, and bug fixes.  [Example](https://github.com/unfoldtoolbox/UnfoldSim.jl/releases).
-2. Avoid breaking changes whenever possible. The change is considered as breaking if you alter:
+2. Avoid breaking changes when possible. The change is considered as breaking if you alter:
   - function names;  
   - argument names;  
   - output formats (e.g. switching from `dict` to `vector`).  
