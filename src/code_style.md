@@ -6,7 +6,7 @@
 5. Minimize external dependencies. Use external libraries only when necessary to avoid compatibility issues and reduce installation and load times.
 6. Comment your code, especially if the code is not self-explanatory.
 7. Modularity: It's best if users can customize functionality without having to modify the package code. Good practices: avoid hardcoded parameters, make attributes (e.g. in figures) customizable, use inheritance from `AbstractTypes`.
-6. Most users will not check the defaults, make sure they are sensible and nudge users to provide their own.
+6. Most users will not check the defaults, make sure the defaults are sensible, potentially nudge users to provide their own with warnings.
 
 
 # Backward compatibility 
