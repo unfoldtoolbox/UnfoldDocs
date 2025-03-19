@@ -10,7 +10,7 @@
 
 
 # Backward compatibility 
-Idally, new versions should produce the same results without any changes to the user's code. If not, a breaking release is required to indicate changed behavior.
+Ideally, new versions should produce the same results without any changes to the user's code. If not, a breaking release is required to indicate changed behavior.
 
 1. Maintain a clear changelog for new releases. Include down major and breaking changes, new features, documentation updates, and bug fixes.  [Example](https://github.com/unfoldtoolbox/UnfoldSim.jl/releases).
 2. Avoid breaking changes when possible. The change is considered as breaking if you alter:
