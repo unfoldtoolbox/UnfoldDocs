@@ -3,7 +3,7 @@ Some of you may ask, why Julia? Was [Matlab-Unfold](www.unfoldtoolbox.org) not g
 
 There are two main answers, one specific to Unfold, one more general.
 
-Initially and **specifically to Unfold.jl** was the impossibility to adapt many LMMs to Matlab ([we tried](abandon unmixed toolbox)). Julia's `MixedModels.jl` results in up to 100x speedup (compared to `LME4`). 
+Initially and **specifically to Unfold.jl** was the impossibility to adapt many LMMs to Matlab ([we tried](abandon unmixed toolbox)). Julia's `MixedModels.jl` results in up to 100x speedup (compared to R's `LME4`). 
 
 More **generally**, we came up with a list of things that make Julia exceptionally well suited for science:
 
