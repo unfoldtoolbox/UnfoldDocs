@@ -24,6 +24,7 @@ Documenter.makedocs(
         "Various" => [
             "Other rERP/TRF packages"=>"comparison.md",
             "Why Julia?" => "why_julia.md",
+            "Talks & Workshops" => "outreach.md",
             ],
         
         "Contributing?" => [
