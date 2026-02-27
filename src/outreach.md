@@ -50,22 +50,25 @@ In “The Unfold Family: Ecosystem for rERP-EEG analyses”, Benedikt Ehinger pr
 
 In “UnfoldMakie.jl: Advanced Visualization of (regression) ERPs”, Vladimir Mikheev demonstrates how regression-based EEG analyses can be turned into interactive, customizable visualizations — bringing rERPs to life with Makie.jl.
 
-<div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap:24px; align-items:start;">
+```@raw html
+<div class="yt-grid">
+  <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap:24px; align-items:start;">
 
-  <iframe width="100%" height="315"
-    src="https://www.youtube.com/embed/laakU8xMtko"
-    title="Unfold Talk 35"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-  </iframe>
+    <iframe width="100%" height="315"
+      src="https://www.youtube.com/embed/laakU8xMtko"
+      title="Unfold Talk 35"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
 
-  <iframe width="100%" height="315"
-    src="https://www.youtube.com/embed/KMmZ9yR1v-k"
-    title="Unfold Talk 36"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-  </iframe>
+    <iframe width="100%" height="315"
+      src="https://www.youtube.com/embed/KMmZ9yR1v-k"
+      title="Unfold Talk 36"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
 
+  </div>
 </div>
