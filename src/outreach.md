@@ -8,60 +8,40 @@ This workshop walks you through regression-based ERP analysis with Unfold.jl —
 
 Perfect if you want to see how Unfold works in practice rather than just reading about it.
 
-<div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap:24px; align-items:start;">
+```@raw html
+<div class="yt-grid">
 
-  <iframe width="100%" height="315"
-    src="https://www.youtube.com/embed/hYHz-5U6QJ8"
-    title="YouTube video" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
+  <div class="yt-item"><iframe src="https://www.youtube.com/embed/hYHz-5U6QJ8" title="Unfold workshop video" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-  <iframe width="100%" height="315"
-    src="https://www.youtube.com/embed/bTfU1MaybqU"
-    title="YouTube video" frameborder="0"
-    allowfullscreen></iframe>
+  <div class="yt-item"><iframe src="https://www.youtube.com/embed/bTfU1MaybqU" title="Unfold workshop video" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-  <iframe width="100%" height="315"
-    src="https://www.youtube.com/embed/G_QyvaikRao"
-    title="YouTube video" frameborder="0"
-    allowfullscreen></iframe>
+  <div class="yt-item"><iframe src="https://www.youtube.com/embed/G_QyvaikRao" title="Unfold workshop video" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-  <iframe width="100%" height="315"
-    src="https://www.youtube.com/embed/VmdIJC1BO48"
-    title="YouTube video" frameborder="0"
-    allowfullscreen></iframe>
+  <div class="yt-item"><iframe src="https://www.youtube.com/embed/VmdIJC1BO48" title="Unfold workshop video" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-  <iframe width="100%" height="315"
-    src="https://www.youtube.com/embed/Z0b_vVH6FVU"
-    title="YouTube video" frameborder="0"
-    allowfullscreen></iframe>
+  <div class="yt-item"><iframe src="https://www.youtube.com/embed/Z0b_vVH6FVU" title="Unfold workshop video" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-  <iframe width="100%" height="315"
-    src="https://www.youtube.com/embed/f_UD9m8oRjg"
-    title="YouTube video" frameborder="0"
-    allowfullscreen></iframe>
+  <div class="yt-item"><iframe src="https://www.youtube.com/embed/f_UD9m8oRjg" title="Unfold workshop video" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-  <iframe width="100%" height="315"
-    src="https://www.youtube.com/embed/srB5mDIDoMY"
-    title="YouTube video" frameborder="0"
-    allowfullscreen></iframe>
+  <div class="yt-item"><iframe src="https://www.youtube.com/embed/srB5mDIDoMY" title="Unfold workshop video" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-  <iframe width="100%" height="315"
-    src="https://www.youtube.com/embed/xB7NXcz7wyA"
-    title="YouTube video" frameborder="0"
-    allowfullscreen></iframe>
+  <div class="yt-item"><iframe src="https://www.youtube.com/embed/xB7NXcz7wyA" title="Unfold workshop video" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-  <iframe width="100%" height="315"
-    src="https://www.youtube.com/embed/l1e7b1qaWOI"
-    title="YouTube video" frameborder="0"
-    allowfullscreen></iframe>
+  <div class="yt-item"><iframe src="https://www.youtube.com/embed/l1e7b1qaWOI" title="Unfold workshop video" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-  <iframe width="100%" height="315"
-    src="https://www.youtube.com/embed/GYDmh35IgO4"
-    title="YouTube video" frameborder="0"
-    allowfullscreen></iframe>
-
+  <div class="yt-item"><iframe src="https://www.youtube.com/embed/GYDmh35IgO4" title="Unfold workshop video" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 </div>
+```
 
 # JuliaCon 2025
 These two talks from JuliaCon Local Paris 2025 showcase the Unfold ecosystem from complementary angles.
