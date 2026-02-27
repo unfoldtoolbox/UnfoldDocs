@@ -76,3 +76,37 @@ font-weight: bold;
 .search-keybinding{
     padding-top:10px;
 }
+
+this below your current CSS:
+
+/* --- YouTube video grid (Documenter pages) --- */
+.yt-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 24px;
+    align-items: start;
+}
+
+/* 16:9 responsive wrapper */
+.yt-item{
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+/* Fill wrapper */
+.yt-item iframe{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 10px;
+}
+
+/* Optional: keep things neat on very narrow screens */
+@media (max-width: 420px){
+    .yt-grid{
+        grid-template-columns: 1fr;
+    }
+}
