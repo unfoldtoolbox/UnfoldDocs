@@ -72,3 +72,4 @@ In “UnfoldMakie.jl: Advanced Visualization of (regression) ERPs”, Vladimir M
 
   </div>
 </div>
+```
